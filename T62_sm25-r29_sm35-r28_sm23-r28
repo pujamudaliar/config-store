@@ -1,5 +1,5 @@
 [cluster]
-mgmt_vip=10.230.255.147
+mgmt_vip=10.230.255.206
 
 [srvnode_default]
 bmc.user=bmcadmin
