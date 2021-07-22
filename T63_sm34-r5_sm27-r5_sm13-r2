@@ -1,12 +1,12 @@
 [cluster]
-mgmt_vip=10.230.255.206
+mgmt_vip=10.237.67.2
 
 [srvnode_default]
 bmc.user=bmcadmin
 bmc.secret='adminBMC!'
 
 [srvnode-1]
-hostname=sm35-r29.pun.seagate.com
+hostname=sm34-r5.pun.seagate.com 
 roles=primary,openldap_server
 storage.cvg.0.data_devices=/dev/disk/by-id/dm-name-mpathc,/dev/disk/by-id/dm-name-mpathb,/dev/disk/by-id/dm-name-mpathj,/dev/disk/by-id/dm-name-mpathd,/dev/disk/by-id/dm-name-mpathe,/dev/disk/by-id/dm-name-mpatho,/dev/disk/by-id/dm-name-mpathp,/dev/disk/by-id/dm-name-mpathf,/dev/disk/by-id/dm-name-mpathg,/dev/disk/by-id/dm-name-mpathk,/dev/disk/by-id/dm-name-mpathh,/dev/disk/by-id/dm-name-mpathi,/dev/disk/by-id/dm-name-mpathn,/dev/disk/by-id/dm-name-mpathl,/dev/disk/by-id/dm-name-mpathm
 storage.cvg.0.metadata_devices=/dev/disk/by-id/dm-name-mpatha
@@ -16,7 +16,7 @@ network.mgmt.interfaces=eno1
 
 
 [srvnode-2]
-hostname=sm35-r28.pun.seagate.com
+hostname=sm27-r5.pun.seagate.com
 roles=primary,openldap_server
 storage.cvg.0.data_devices=/dev/disk/by-id/dm-name-mpathi,/dev/disk/by-id/dm-name-mpathk,/dev/disk/by-id/dm-name-mpathm,/dev/disk/by-id/dm-name-mpathl,/dev/disk/by-id/dm-name-mpathp,/dev/disk/by-id/dm-name-mpathn,/dev/disk/by-id/dm-name-mpathh,/dev/disk/by-id/dm-name-mpatha,/dev/disk/by-id/dm-name-mpathe,/dev/disk/by-id/dm-name-mpathb,/dev/disk/by-id/dm-name-mpatho,/dev/disk/by-id/dm-name-mpathc,/dev/disk/by-id/dm-name-mpathd,/dev/disk/by-id/dm-name-mpathg,/dev/disk/by-id/dm-name-mpathf
 storage.cvg.0.metadata_devices=/dev/disk/by-id/dm-name-mpathj
@@ -25,7 +25,7 @@ network.data.public_interfaces=enp175s0f0
 network.mgmt.interfaces=eno1
 
 [srvnode-3]
-hostname=sm23-r28.pun.seagate.com
+hostname=sm13-r2.pun.seagate.com
 roles=primary,openldap_server
 storage.cvg.0.data_devices=/dev/disk/by-id/dm-name-mpathb,/dev/disk/by-id/dm-name-mpathj,/dev/disk/by-id/dm-name-mpathc,/dev/disk/by-id/dm-name-mpathe,/dev/disk/by-id/dm-name-mpathd,/dev/disk/by-id/dm-name-mpathi,/dev/disk/by-id/dm-name-mpathp,/dev/disk/by-id/dm-name-mpathg,/dev/disk/by-id/dm-name-mpathh,/dev/disk/by-id/dm-name-mpathf,/dev/disk/by-id/dm-name-mpathk,/dev/disk/by-id/dm-name-mpathm,/dev/disk/by-id/dm-name-mpathl,/dev/disk/by-id/dm-name-mpatho,/dev/disk/by-id/dm-name-mpathn
 storage.cvg.0.metadata_devices=/dev/disk/by-id/dm-name-mpatha
