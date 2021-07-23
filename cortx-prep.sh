@@ -23,7 +23,7 @@ mkdir -p $(dirname "${LOG_FILE}")
 PRVSNR_ROOT="/opt/seagate/cortx/provisioner"
 minion_id="srvnode-0"
 repo_url=
-nodejs_tar="http://cortx-storage.colo.seagate.com/releases/cortx/github/integration-custom-ci/centos-7.8.2003/custom-build-1969/3rd_party/commons/node/node-v12.13.0-linux-x64.tar.xz"
+nodejs_tar="http://cortx-storage.colo.seagate.com/releases/cortx/github/stable/centos-7.8.2003/272/prod/3rd_party/commons/node/node-v12.13.0-linux-x64.tar.xz"
 
 function trap_handler {
     exit_code=$?
